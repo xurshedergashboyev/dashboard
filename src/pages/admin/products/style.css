@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+h1,h2,h3,h4,h5,p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    
+}
+
+.two {
+    display: flex;
+    
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.bottom {
+    padding-right: 10px;
+}
+
+.span {
+    font-size: 40px;
+}
+
+.percent {
+    padding-right: 5px;
+}
+
+.card-content {
+    border-right: 1px solid rgb(99, 97, 97);
+    padding-right: 20px;
+}
+
+.heartbeat {
+    border-radius: 50%;
+    font-size: 40px;
+    color: rgb(147, 169, 230);
+    padding: 6px;
+    background-color: rgb(197, 227, 255);
+}
+
+.card-title2 {
+    float: right;
+}
+
+.container {
+    width: 980px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 30px;
+}
+
+.item--1, .item--2, .item--3 {
+    border-radius: 10px;
+}
+
+
+.item--1 {
+    background-color: orange;
+    grid-row-start: 1;
+}
+
+.item--2 {
+    background-color: royalblue;
+}
+
+.item--3 {
+    background-color:#fff;
+    grid-row: 1 / 3;
+}
+
+.statistics {
+    display: flex;   
+}
+
+.stat-title {
+
+    color: rgb(99, 99, 99);
+    padding-right: 15px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.stat-num {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+ .challenge {
+    width: 250px;
+    margin: 15px ;
+    display: grid;
+    grid-template-rows: 25px 100px ;
+    grid-template-columns: repeat(3, 1fr) 250px;
+    grid-gap: 30px;
+}
+
+.challenge > * {
+    background-color: white;
+    padding: 20px;
+    color: rgb(116, 116, 116);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.header {
+    grid-column: 1 / -1;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 2 / span 2;
+    margin: 0;
+    font-size: 10px;
+}
+
+.main-content {
+    grid-column: 2 / span 3;
+}
+
+.first-p {
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+}
+
+.second-p {
+    float: right;
+    background-color: rgb(130, 143, 253);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.sidebar-p {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(250, 153, 124);
+    color: red;
+ 
+} 
+
